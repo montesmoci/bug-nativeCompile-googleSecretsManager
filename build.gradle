@@ -19,6 +19,7 @@ dependencies {
     implementation("io.micronaut:micronaut-validation")
 
     implementation("io.micronaut.gcp:micronaut-gcp-secret-manager")
+    nativeImageCompileOnly("com.google.cloud:native-image-support")
 }
 
 
