@@ -1,0 +1,12 @@
+micronaut:
+  application:
+    name: bugNativeCompileGoogleSecretManager
+netty:
+  default:
+    allocator:
+      max-order: 3
+
+gcp:
+  credentials:
+    enabled: true
+  project-id: replaceme
